@@ -1,0 +1,106 @@
+*{
+    text-rendering: optimizelegibility;
+    box-sizing: border-box;
+    word-break: break-word;
+    outline: none;
+    text-decoration: none;
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior: none;
+    font-family: AvertaStd, -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
+.container-center{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    width: 1136px;
+    margin: 56px auto 80px;
+    /* box-shadow: 0px 16px 32px 0px #b5c4cf; */
+}
+.textimg {
+    box-shadow: 0px 16px 32px 0px  #73787a;
+    gap: 0;
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    background-color: var(--color-i-white);
+    /* box-shadow: 0px 16px 32px 0px var(--color-divider-secondary); */
+    border-radius: 8px;
+}
+
+.textimg .subtexgtimg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 2rem 2rem; */
+    
+}
+
+.imgfull img {
+    width: 95%;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.text .h6var{
+    font-size: 14px;
+    letter-spacing: 0em;
+    /* margin: 0px 4px 0px 0px; */
+    color: rgb(45, 129, 247);
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.text .h2var{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    /* margin: 0px 0px 16px; */
+    color: rgb(60, 72, 82);
+}
+
+.text .h4var {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.005em;
+}
+
+.text .p1_variant {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.find-btn{
+    /* background-color: blue;
+    padding: .6rem 2rem ;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600; */
+
+    padding: 14px 32px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgb(60, 72, 82);
+    border: 1px solid rgb(60, 72, 82);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    font-weight: 700;
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 48px;
+    cursor: pointer;
+    margin-top: 12px;
+    max-width: 176px;
+}
